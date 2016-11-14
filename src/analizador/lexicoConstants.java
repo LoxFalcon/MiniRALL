@@ -15,111 +15,67 @@ public interface lexicoConstants {
   /** RegularExpression Id. */
   int CONSTANTE = 2;
   /** RegularExpression Id. */
-  int INPUT = 3;
+  int VARIABLE = 3;
   /** RegularExpression Id. */
-  int PRINT = 4;
+  int INPUT = 4;
   /** RegularExpression Id. */
-  int IF = 5;
+  int PRINT = 5;
   /** RegularExpression Id. */
-  int ELSE = 6;
+  int IF = 6;
   /** RegularExpression Id. */
-  int WHILE = 7;
+  int ELSE = 7;
   /** RegularExpression Id. */
-  int DO = 8;
+  int WHILE = 8;
   /** RegularExpression Id. */
-  int FOR = 9;
+  int ASIGNACION = 9;
   /** RegularExpression Id. */
-  int FUNCTION = 10;
+  int RESTA = 10;
   /** RegularExpression Id. */
-  int LIST = 11;
+  int SUMA = 11;
   /** RegularExpression Id. */
-  int ADD = 12;
+  int MULTIPLICACION = 12;
   /** RegularExpression Id. */
-  int GET = 13;
+  int DIVISION = 13;
   /** RegularExpression Id. */
-  int STACK = 14;
+  int MENOR = 14;
   /** RegularExpression Id. */
-  int PUSH = 15;
+  int MAYOR = 15;
   /** RegularExpression Id. */
-  int POP = 16;
+  int MENORIGUAL = 16;
   /** RegularExpression Id. */
-  int VOID = 17;
+  int MAYORIGUAL = 17;
   /** RegularExpression Id. */
-  int RETURN = 18;
+  int IGUAL = 18;
   /** RegularExpression Id. */
-  int OR = 19;
+  int DIFERENTE = 19;
   /** RegularExpression Id. */
-  int AND = 20;
+  int PARENTA = 20;
   /** RegularExpression Id. */
-  int NOT = 21;
+  int PARENTC = 21;
   /** RegularExpression Id. */
-  int TRUE = 22;
+  int LLAVEA = 22;
   /** RegularExpression Id. */
-  int FALSE = 23;
+  int LLAVEC = 23;
   /** RegularExpression Id. */
-  int ASIGNACION = 24;
+  int PCOMA = 24;
   /** RegularExpression Id. */
-  int RESTA = 25;
+  int DCOMA = 25;
   /** RegularExpression Id. */
-  int SUMA = 26;
+  int CORCHETEA = 26;
   /** RegularExpression Id. */
-  int MULTIPLICACION = 27;
+  int CORCHETEC = 27;
   /** RegularExpression Id. */
-  int DIVISION = 28;
+  int INT = 28;
   /** RegularExpression Id. */
-  int MENOR = 29;
+  int FLOAT = 29;
   /** RegularExpression Id. */
-  int MAYOR = 30;
+  int NUMERO = 30;
   /** RegularExpression Id. */
-  int MENORIGUAL = 31;
+  int DECIMAL = 31;
   /** RegularExpression Id. */
-  int MAYORIGUAL = 32;
+  int CADENA = 32;
   /** RegularExpression Id. */
-  int IGUAL = 33;
-  /** RegularExpression Id. */
-  int DIFERENTE = 34;
-  /** RegularExpression Id. */
-  int PARENTA = 35;
-  /** RegularExpression Id. */
-  int PARENTC = 36;
-  /** RegularExpression Id. */
-  int LLAVEA = 37;
-  /** RegularExpression Id. */
-  int LLAVEC = 38;
-  /** RegularExpression Id. */
-  int COMA = 39;
-  /** RegularExpression Id. */
-  int PUNTO = 40;
-  /** RegularExpression Id. */
-  int PCOMA = 41;
-  /** RegularExpression Id. */
-  int DCOMA = 42;
-  /** RegularExpression Id. */
-  int SCOMA = 43;
-  /** RegularExpression Id. */
-  int DCORCHETE = 44;
-  /** RegularExpression Id. */
-  int SCORCHETE = 45;
-  /** RegularExpression Id. */
-  int INT = 46;
-  /** RegularExpression Id. */
-  int FLOAT = 47;
-  /** RegularExpression Id. */
-  int BOOLEAN = 48;
-  /** RegularExpression Id. */
-  int CHAR = 49;
-  /** RegularExpression Id. */
-  int STR = 50;
-  /** RegularExpression Id. */
-  int NUMERO = 51;
-  /** RegularExpression Id. */
-  int DECIMAL = 52;
-  /** RegularExpression Id. */
-  int CADENA = 53;
-  /** RegularExpression Id. */
-  int CARACTER = 54;
-  /** RegularExpression Id. */
-  int IDENTIFICADOR = 55;
+  int IDENTIFICADOR = 33;
 
   /** Lexical state. */
   int DEFAULT = 0;
@@ -129,27 +85,12 @@ public interface lexicoConstants {
     "<EOF>",
     "\"main\"",
     "\"const\"",
+    "\"var\"",
     "\"input\"",
     "\"print\"",
     "\"if\"",
     "\"else\"",
     "\"while\"",
-    "\"do\"",
-    "\"for\"",
-    "\"function\"",
-    "\"list\"",
-    "\"add\"",
-    "\"get\"",
-    "\"stack\"",
-    "\"push\"",
-    "\"pop\"",
-    "\"void\"",
-    "\"return\"",
-    "\"||\"",
-    "\"&&\"",
-    "\"!\"",
-    "\"true\"",
-    "\"false\"",
     "\"=\"",
     "\"-\"",
     "\"+\"",
@@ -165,22 +106,15 @@ public interface lexicoConstants {
     "\")\"",
     "\"{\"",
     "\"}\"",
-    "\",\"",
-    "\".\"",
     "\";\"",
     "\"\\\"\"",
-    "\"\\\'\"",
     "\"[\"",
     "\"]\"",
     "\"int\"",
     "\"float\"",
-    "\"boolean\"",
-    "\"char\"",
-    "\"string\"",
     "<NUMERO>",
     "<DECIMAL>",
     "<CADENA>",
-    "<CARACTER>",
     "<IDENTIFICADOR>",
     "\" \"",
     "\"\\n\"",
