@@ -311,7 +311,7 @@ public class lexico/*@bgen(jjtree)*/implements lexicoTreeConstants, lexicoConsta
 
   static final public void declararConstante() throws ParseException {
  /*@bgen(jjtree) declararConstante */
- SimpleNode jjtn000 = new SimpleNode(JJTDECLARARCONSTANTE);
+ SimpleNode jjtn000 = new SimpleNode(JJTDECLARACIONCONSTANTES);
  boolean jjtc000 = true;
  jjtree.openNodeScope(jjtn000);Symbol s; Token a; int typeKind; String typeKindID; String id; String value; int valueKind;
     try {
@@ -369,7 +369,7 @@ public class lexico/*@bgen(jjtree)*/implements lexicoTreeConstants, lexicoConsta
 
   static final public void declararVariable() throws ParseException {
  /*@bgen(jjtree) declararVariable */
- SimpleNode jjtn000 = new SimpleNode(JJTDECLARARVARIABLE);
+ SimpleNode jjtn000 = new SimpleNode(JJTDECLARACIONVARIABLES);
  boolean jjtc000 = true;
  jjtree.openNodeScope(jjtn000);Symbol s; Token a; int typeKind; String typeKindID; String id; String value = ""; int valueKind;
     try {

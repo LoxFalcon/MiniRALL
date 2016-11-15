@@ -179,7 +179,7 @@ public class OyenteEditor extends WindowAdapter implements ActionListener, Docum
 
     public void compilar() {
         if (isAnalized) {
-            String code = lexico.result;
+            String code ="";// = lexico.result;
             String nombreArchivo = archivoActual.getName();
             nombreArchivo = nombreArchivo.substring(0, nombreArchivo.indexOf("."));
             String rutaArchivo = tempDirectory.getAbsolutePath() + "\\";
